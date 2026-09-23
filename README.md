@@ -87,10 +87,10 @@ Example output:
 
 ```
 walmart-sales-forecasting/
-├── data/                  # raw Kaggle CSVs (not included — download separately)
-├── notebooks/              # EDA, modeling, and AI agent notebooks
-├── outputs/                 # cleaned data and forecast comparison exports for Power BI
-├── dashboard/               # Power BI .pbix file
+├── Data/                  # raw Kaggle CSVs (not included — download separately)
+├── Notebooks/              # EDA, modeling, and AI agent notebooks
+├── Outputs/                 # cleaned data and forecast comparison exports for Power BI, and Dashboard screenshots
+├── Dashboard/               # Power BI .pbix file
 └── README.md
 ```
 
