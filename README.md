@@ -50,7 +50,9 @@ Accuracy degrades from aggregate to store level — a direct, measurable demonst
 ### 4. Power BI Dashboard
 Two-page report:
 - **Overview**: company-wide actual vs. forecast trend, sales by store type, KPI cards.
+  ![OverView](Outputs/OverView.png)
 - **Store Deep-Dive**: Store 40 actual vs. forecast, weekly error detail table, KPI cards.
+  !Store Deep-Dive](Outputs/Store 40.png)
 
 ### 5. AI Agent Layer
 A Python function summarizes the forecast comparison table into a structured prompt, sent to Groq's `openai/gpt-oss-120b` model, which returns a concise write-up covering:
